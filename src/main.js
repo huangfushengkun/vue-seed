@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+import store from './store'
 
 if(process.env.NODE_ENV=="mock")
 require("../src/mock");
@@ -14,8 +14,9 @@ console.log(router);
 
 /* eslint-disable no-new */
 let VueInstance=new Vue({
-  // el: '#app',
+  el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })

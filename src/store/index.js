@@ -8,20 +8,26 @@ import mutations from "./mutations";
 
 Vue.use(Vuex);
 
-let store={
+let state={
     id:"1"
 }
 
 let getters={
     getId:state=>state.id
 }
+// let mutations = {
 
-export default {
-    state:store,
-    getters:getters,
+// }
+// let actions = {
+
+// }
+
+export default new Vuex.Store({
+    state,
+    getters,
     actions,
     mutations,
     modules:{
 
     }
-}
+}) 

@@ -25,9 +25,11 @@ export default {
         planeComponentI
     },
     created(){
-        userService.fTestService().then((res)=>{
-            console.log(res);
-        });
+        // userService.fTestService().then((res)=>{
+        //     console.log(res);
+        // });
+        // this.$store.dispatch("getInfos",78)
+        // console.log(this.$store.state)
         // userService.fTestService2().then((res)=>{
         //     console.log(res);
         // });

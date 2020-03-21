@@ -6,7 +6,7 @@ import {
 } from "./mutitaion-type"
 
 export default {
-    [GET_INOFS](state,{params}){
+    [GET_INOFS](state,params){
         state.id=params;
     }
 }

@@ -6,7 +6,7 @@ let pageOrderIndex = ()=>import(/*webpackChunkName:'order'*/ '@/views/order/inde
 
 export default [{
     path:"/order",
-    name:"order",
+    // name:"order",
     component:layoutI,
     children:[{
         path:'',

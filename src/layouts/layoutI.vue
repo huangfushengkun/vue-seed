@@ -1,5 +1,6 @@
 <template>
     <section class="container">
+        <div>huangfu</div>
         <router-view></router-view>
     </section>
 </template>
